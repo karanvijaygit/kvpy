@@ -8,7 +8,6 @@ Created on Sat Dec 15 13:49:49 2018
 # Program to print numbers between 2000 and 3200(both included)divisible by 7
 # and not by 5 in a single line separated by comma
 output = []
-list1 = [1,2,3,4,5,6]
 ctr=0
 for i in range(2000,3201):
     if i %7 ==0 and i%5!=0:
